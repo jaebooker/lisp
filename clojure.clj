@@ -6,3 +6,6 @@
     :isp 3050
     :max-fuel-rate (/ 28445 253)
     :max-thrust 4.152e6})
+(defn double-+
+    [a b]
+    (* 2 (+ a b)))
