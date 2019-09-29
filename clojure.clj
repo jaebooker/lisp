@@ -9,3 +9,6 @@
 (defn double-+
     [a b]
     (* 2 (+ a b)))
+(defn double-op
+        [f a b]
+        (* 3 (a a b)))
