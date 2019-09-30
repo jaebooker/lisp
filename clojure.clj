@@ -18,3 +18,7 @@
 (defn double-*
     [a b]
     (* 2 (* a b)))
+(def banks
+    (filter
+        (fn [bank] (= :bank (:type bank)))
+        banks))
