@@ -10,5 +10,11 @@
     [a b]
     (* 2 (+ a b)))
 (defn double-op
-        [f a b]
-        (* 3 (a a b)))
+    [f a b]
+    (* 3 (a a b)))
+(defn double-<f>
+    [a b]
+    (* 2 (f a b)))
+(defn double-*
+    [a b]
+    (* 2 (* a b)))
